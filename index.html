@@ -4,21 +4,23 @@
     <meta charset="utf-8">
     <title>Reto-Laboratoria</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <!--Mary explica-->
+    <!--Enlazamos el css-->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div>
-      <h1 id="welcome">Bienvenida al reto de Laboratoria <span id="name"></span>!!!</h1>
+      <h1 id="welcome">Bienvenida <span id="name"></span>!!!</h1>
       <h2 id="trivia">TRIVIA TEST</h2>
-      <p id="ask">Ingresa tu nombre</p>
+      <p id="ask"> Ingresa tu nombre</p>
 
       <!--Ingresa tu nombre-->
       <section id="section1">
         <form>
           <input type="text" id="firstname">
         </form><br><br>
+        <center>
         <button onclick = enter()>Ingresar</button>
+        </center>
       </section>
 
       <!--Bienvenida y pregunta si quiere jugar-->
@@ -27,50 +29,62 @@
           <input type="radio" name="answer0" value="si">Si
           <input type="radio" name="answer0" value="no">No<br><br>
         </form>
+        <center>
         <button onclick = play()>Enviar</button>
+        </center>
       </section>
 
       <!--Pregunta número 1 del reto-->
       <section id="section3">
-        <h4 id="pregunta1">¿Qué prefieres?</h4>
+        <h3 id="pregunta1">¿Qué prefieres?</h3>
         <form>
           <input type="radio" name="answer1" value="si">Beber agua
           <input type="radio" name="answer1" value="no">Beber gaseosa<br><br>
         </form>
+        <center>
         <button onclick = pregunta1()>Enviar</button>
+        </center>
       </section>
 
       <!--Pregunta número 2 del reto-->
       <section id="section4">
-        <h4 id="pregunta2">¿Qué te gusta comer?</h4>
+        <h3 id="pregunta2">¿Qué te gusta comer?</h3>
         <form>
-          <input type="radio" name="answer2" value="si">Ensaladas/Pollo a la plancha
-          <input type="radio" name="answer2" value="no">Papas fritas/Pizza<br><br>
+          <input type="radio" name="answer2" value="si">Ensalada-Pollo a la plancha
+          <input type="radio" name="answer2" value="no">Papas fritas-Pizza<br><br>
         </form>
+        <center>
         <button onclick = pregunta2()>Enviar</button>
+        </center>
       </section>
 
       <!--Pregunta número 3 del reto-->
       <section id="section5">
-        <h4 id="pregunta3">¿Qué prefieres?</h4>
+        <h3 id="pregunta3">¿Qué prefieres?</h3>
         <form>
           <input type="radio" name="answer3" value="si">Hacer ejercicios
           <input type="radio" name="answer3" value="no">Ver televisión<br><br>
         </form>
+        <center>
         <button onclick = pregunta3()>Enviar</button>
+        </center>
       </section>
 
       <!--Pregunta número 4 del reto-->
       <section id="section6">
-        <h4 id="pregunta4">¿Cuánto tiempo duermes?</h4>
+        <h3 id="pregunta4">¿Cuánto tiempo duermes?</h3>
         <form>
           <input type="radio" name="answer4" value="si">6-8 horas
           <input type="radio" name="answer4" value="no">3-5 horas<br><br>
         </form>
+        <center>
         <button onclick = pregunta4()>Enviar</button>
+        </center>
       </section>
 
     </div>
+
+    <!--Enlazamos el js-->
     <script type="text/javascript" src="app.js">
 
     </script>
