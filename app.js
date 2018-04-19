@@ -10,8 +10,8 @@ var r = 0;
 
 function enter()
   {
-    welcome.style.fontSize = "22pt";
-    welcome.style.color = "white";
+    welcome.style.fontSize = "25pt";
+    welcome.style.color = "#66CC99";
     document.getElementById("name").innerHTML = document.getElementById("firstname").value;
     document.getElementById("ask").innerHTML = "¿Deseas jugar?";
     document.getElementById("welcome").style.display = "block";
@@ -46,11 +46,14 @@ function pregunta1()
       {
         r1 = "Beber gaseosa";
         r=r+2;
+        t1_2.style.backgroundColor = "red";
       }
     if(answer===true)
       {
         r1 = "Beber agua";
         r=r+1;
+        t1_1.style.backgroundColor = "red";
+
       }
     return r1;
   }
@@ -65,11 +68,15 @@ function pregunta2()
       {
         r2 = "Ensalada-Pollo a la plancha";
         r=r+2;
+        t2_2.style.backgroundColor = "red";
+
       }
     if(answer===true)
       {
          r2 = "Papas fritas-Pizza";
          r=r+1;
+         t2_1.style.backgroundColor = "red";
+
       }
   }
 
@@ -84,11 +91,15 @@ function pregunta3()
     {
       r3 = "Ver televisión";
       r=r+2;
+      t3_2.style.backgroundColor = "red";
+
     }
   if(answer===true)
     {
      r3 = "Hacer ejercicios";
      r=r+1;
+     t3_1.style.backgroundColor = "red";
+
     }
 }
 
@@ -96,17 +107,23 @@ function pregunta4()
 {
   var answer=document.getElementsByName("answer4")[0].checked;
   document.getElementById("section6").style.display = "none";
+  document.getElementById("section7").style.display = "block";
 
   if(answer===false)
     {
       r4 = "3-5 horas";
-      r=r+2;
+      r = r + 2;
+      t4_2.style.backgroundColor = "red";
+
     }
   if(answer===true)
     {
       r4 = "6-8 horas";
       r=r+1;
+      t4_1.style.backgroundColor = "red";
+
     }
+
 
   if (r>0 && r<6)
     {
@@ -117,5 +134,5 @@ function pregunta4()
       document.getElementById("ask").innerHTML ="Cuidado! Tu salud puede estar en riesgo, trata de llevar una vida saludable.";
     }
   ask.style.color = "red";
-  ask.style.fontSize = "25pt";
+  ask.style.fontSize = "10pt";
 }
