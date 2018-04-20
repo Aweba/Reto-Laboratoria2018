@@ -78,3 +78,18 @@ div {
   opacity: 0.88;
   padding-bottom: 50px;
 }
+
+table {
+   font-family: cursive;
+   font-size: small;
+   color: #696969;
+   font-weight: bold;
+   border: 2px solid #FF7F50;
+   border-collapse: separate;
+}
+th, td {
+   border: 2px solid #FF7F50;
+   border-collapse: separate;
+   text-align: left;
+   text-align: center;
+}
