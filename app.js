@@ -11,7 +11,7 @@ function enter() {
   welcome.style.fontSize = "25pt";
   welcome.style.color = "#66CC99";
   document.getElementById("name").innerHTML = document.getElementById("firstname").value;
-  document.getElementById("ask").innerHTML = "¿Deseas jugar?";
+  document.getElementById("ask").innerHTML = "\u00BFDeseas jugar?";
   document.getElementById("welcome").style.display = "block";
   document.getElementById("section1").style.display = "none";
   document.getElementById("section2").style.display = "block";
