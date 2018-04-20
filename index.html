@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang = "en" dir = "ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset = "utf-8">
     <title>Reto-Laboratoria</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta name = "viewport" content = "width = device-width, user-scalable = no, initial-scale = 1.0">
     <!--Enlazamos el css-->
     <link rel = "stylesheet" href = "style.css">
   </head>
@@ -23,7 +23,7 @@
       </section>
 
       <!--Bienvenida y pregunta si quiere jugar-->
-      <section id="section2">
+      <section id = "section2">
         <form>
           <input type = "radio" name = "answer0" value = "si">Si
           <input type = "radio" name = "answer0" value = "no">No<br><br>
@@ -34,55 +34,53 @@
       </section>
 
       <!--Pregunta número 1 del reto-->
-      <section id="section3">
+      <section id = "section3">
         <h2>¿Qué prefieres?</h2>
         <form>
-          <input type="radio" name="answer1" value="si">Beber agua
-          <input type="radio" name="answer1" value="no">Beber gaseosa<br><br>
+          <input type = "radio" name = "answer1" value = "si">Beber agua
+          <input type = "radio" name = "answer1" value = "no">Beber gaseosa<br><br>
         </form>
         <center>
-        <button onclick = pregunta1()>Enviar</button>
+        <button onclick = question1()>Enviar</button>
         </center>
       </section>
 
       <!--Pregunta número 2 del reto-->
-      <section id="section4">
+      <section id = "section4">
         <h2>¿Qué te gusta comer?</h2>
         <form>
-          <input type="radio" name="answer2" value="si">Ensalada-Pollo a la plancha
-          <input type="radio" name="answer2" value="no">Papas fritas-Pizza<br><br>
+          <input type = "radio" name = "answer2" value = "si">Ensalada-Pollo a la plancha
+          <input type = "radio" name = "answer2" value = "no">Papas fritas-Pizza<br><br>
         </form>
         <center>
-        <button onclick = pregunta2()>Enviar</button>
+        <button onclick = question2()>Enviar</button>
         </center>
       </section>
 
       <!--Pregunta número 3 del reto-->
-      <section id="section5">
+      <section id = "section5">
         <h2>¿Qué prefieres?</h2>
         <form>
-          <input type="radio" name="answer3" value="si">Hacer ejercicios
-          <input type="radio" name="answer3" value="no">Ver televisión<br><br>
+          <input type = "radio" name = "answer3" value = "si">Hacer ejercicios
+          <input type = "radio" name = "answer3" value = "no">Ver televisión<br><br>
         </form>
         <center>
-        <button onclick = pregunta3()>Enviar</button>
+        <button onclick = question3()>Enviar</button>
         </center>
       </section>
 
       <!--Pregunta número 4 del reto-->
-      <section id="section6">
+      <section id = "section6">
         <h2>¿Cuánto tiempo duermes?</h2>
         <form>
-          <input type="radio" name="answer4" value="si">6-8 horas
-          <input type="radio" name="answer4" value="no">3-5 horas<br><br>
+          <input type = "radio" name = "answer4" value = "si">6-8 horas
+          <input type = "radio" name = "answer4" value = "no">3-5 horas<br><br>
         </form>
         <center>
-        <button onclick = pregunta4()>Enviar</button>
+        <button onclick = question4()>Enviar</button>
         </center>
       </section>
-
-      <section id="section7">
-
+      <section id = "section7">
         <center>
           <table>
             <tr>
@@ -92,33 +90,31 @@
             </tr>
             <tr>
               <td>1</td>
-              <td id="t1_1">Agua</td>
-              <td id="t1_2">Gaseosa</td>
+              <td id="text1_1">Agua</td>
+              <td id="text1_2">Gaseosa</td>
             </tr>
             <tr>
               <td>2</td>
-              <td id="t2_1">Ensalada</td>
-              <td id="t2_2">Pizza</td>
+              <td id="text2_1">Ensalada</td>
+              <td id="text2_2">Pizza</td>
             </tr>
             <tr>
               <td>3</td>
-              <td id="t3_1">Ejercicio</td>
-              <td id="t3_2">TV</td>
+              <td id="text3_1">Ejercicio</td>
+              <td id="text3_2">TV</td>
             </tr>
             <tr>
               <td>4</td>
-              <td id="t4_1">6-8</td>
-              <td id="t4_2">3-5</td>
+              <td id="text4_1">6-8</td>
+              <td id="text4_2">3-5</td>
             </tr>
           </table>
         </center>
       </section>
-
     </div>
 
     <!--Enlazamos el js-->
     <script type="text/javascript" src="app.js">
-
     </script>
   </body>
 </html>

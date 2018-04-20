@@ -1,40 +1,32 @@
-#welcome, #trivia, #section3, #section4, #section5, #section6, #section7 {
-  display:none;
-}
-
-#section1 {
-  display:block;
-}
-
-#section2 {
+#welcome, #trivia, #section2, #section3, #section4, #section5, #section6, #section7 {
   display:none;
 }
 
 body {
-    background-image: url("images/background.jpg");
+  background-image: url("images/background.jpg");
 }
 
 h2 {
-  color : #66CCCC;
+  color: #66CCCC;
 }
 
-h4{
-  color:#696969;
+h4 {
+  color: #696969;
   font-family: cursive;
   font-size: large;
   font-weight: bolder;
   text-align: left;
 }
 
-p{
-  color:#696969;
+p {
+  color: #696969;
   font-family: cursive;
   font-size: 15pt;
   font-weight: bolder;
   text-align: center;
 }
 
-button{
+button {
   background-color: #F5A9BC;
   border-radius: 10px;
   width: 100px;
@@ -47,7 +39,7 @@ button:hover {
 }
 
 form {
-  color:#696969;
+  color: #696969;
   font-family: cursive;
   font-size: large;
   font-weight: bold;
@@ -56,11 +48,10 @@ form {
 
 #firstname {
   font-size: 25pt;
-  color:#66CC99;
+  color: #66CC99;
   font-weight: bold;
   height: 40px;
   width: 300px;
-
 }
 
 div {
@@ -73,7 +64,7 @@ div {
   margin-top: -100px;
   border: 5px solid #EB984E;
   background-color: yellow;
-  padding:35px;
+  padding: 35px;
   border-radius: 20%;
   opacity: 0.88;
   padding-bottom: 50px;
